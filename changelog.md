@@ -1,5 +1,22 @@
 # Changelog — amni-scient.com
 
+## v1.3.0 — 2026-03-06 — Ko-fi Support Integration
+
+### All Pages (11 files)
+- Added Ko-fi "SUPPORT" link (https://ko-fi.com/amnibro) to footer-links on every page
+- Footer link styled with `.kofi-link` class (coral #ff5e5b accent)
+
+### index.html
+- Added Ko-fi "SUPPORT" button to hero CTA row alongside AMNI-CRYPT and VIEW PROJECTS
+- Button styled with `.btn-kofi` class (coral outline, fills on hover)
+
+### css/style.css
+- Added `.btn-kofi` button style (coral border/text, coral fill on hover)
+- Added `.kofi-link` footer accent style
+
+### Backups
+- Pre-change backups stored at backups/v_kofi/
+
 ## v1.2.0 — 2026-03-05 — App Screenshots & Graphics
 
 ### New Assets

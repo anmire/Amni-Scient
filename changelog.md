@@ -1,6 +1,21 @@
 # Changelog — amni-scient.com
 
-## v1.1.0 — 2026-03-03 — Coloration & Fact-Check Audit
+## v1.2.0 — 2026-03-05 — App Screenshots & Graphics
+
+### New Assets
+- `assets/haven/` — 14 files: Screenshot_32-37 (phone), 10in_38-43 (tablet), FfNHy.jpg, 6Mxdg.jpg (promo)
+- `assets/crypt/` — 3 files: feature_graphic.png, icon-512.jpg, amni-scient-header.jpg
+
+### amni-haven.html
+- Added `<div class="screenshots">` section before SPECIFICATIONS with horizontal-scroll phone strip (6 screenshots) and tablet strip (6 screenshots) plus dual promo images
+
+### amni-crypt.html
+- Added `<div class="screenshots">` section before SPECIFICATIONS with full-width feature graphic and icon/header promo pair
+
+### css/style.css
+- Added `.screenshots`, `.screenshot-strip`, `.screenshot-phone`, `.screenshot-tablet`, `.feature-graphic-wrap`, `.promo-pair`, `.promo-img` component styles with hover glow and mobile responsive sizing
+
+
 
 ### Verbiage Fixes (Fact-Check)
 - Homepage tagline changed from "No cloud. No compromise." to "Honest disclosures per product." — both Amni-Crypt and Haven use AdMob, Play Billing, and/or FCM (all cloud services)
